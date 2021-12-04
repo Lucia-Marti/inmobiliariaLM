@@ -1,0 +1,33 @@
+{
+    "data": [
+        {
+            "id": 7,
+            "email": "carla.musso@reqres.in",
+            "first_name": "Carla ",
+            "last_name": "Musso",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "perezjuan19@reqres.in",
+            "first_name": "Juan ",
+            "last_name": "Perez",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.dibtto@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Di Benedetto",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "villalucas10@reqres.in",
+            "first_name": "Lucas",
+            "last_name": "Marco Villa",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        }
+
+    ]
+}
