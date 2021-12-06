@@ -554,7 +554,7 @@ div.formContacto form textarea {
         width: 20rem;
         margin: 0rem;
     }
-    .busquedaPersonal h1 {
+    #h1Busqueda {
         font-size: 18px;
     }
 
