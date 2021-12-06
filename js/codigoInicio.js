@@ -27,7 +27,7 @@ $(document).ready( function() {
 
                 //creo las cards iterando el json
                 for (const dato of propiedades) {
-                    $("#prop").append(` 
+                    $("#props").append(` 
                         <div class="card">
                             <img style="height:14rem" src= ${dato.img} >
                             <div class="card-body" >
