@@ -14,12 +14,12 @@ $(".buscar").on("click", function(e){
 })
 
 // url de json con propiedades 
-const URLJ =  "propiedades.json"
+const URLJ =  "../propiedades.json"
 // renderizar todas las propiedades 
 $(document).ready( function() {
 
     $.getJSON(URLJ, function (respuesta, estado) {
-        //if(estado === "success"){
+        if(estado === "success"){
             let propiedades = respuesta.inmbuebles;
            
             // mostrar las destacadas(6)
@@ -54,7 +54,7 @@ $(document).ready( function() {
                     `)      
                 
                 
-         //   }
+           }
 
 
             // AGREGAR A FAVORITOS (agrego a local storage - luego en la pag de mi cuenta los obtengo del storage)
