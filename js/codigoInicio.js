@@ -14,7 +14,7 @@ $(".buscar").on("click", function(e){
 })
 
 // url de json con propiedades 
-const URLJ =  "js/propiedades.json"
+const URLJ =  "../js/propiedades2.json"
 // renderizar todas las propiedades 
 $(document).ready( function() {
 
