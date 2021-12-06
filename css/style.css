@@ -156,7 +156,7 @@ img.card-img-top{
 
 div.seccionAyuda {
     margin-top: 50px;
-    background-image: url(/img/banner\ 1.jpg);
+    background-image: url(../img/banner\ 1.jpg);
     background-position: center center;
     background-size:cover ;
     height:70vh;
@@ -223,7 +223,7 @@ footer div p {
 /*heather*/
 
 div.bannerBusqueda{
-    background-image: url(/img/banner3.jpg);
+    background-image: url(../img/banner3.jpg);
     background-position: center center;
     background-size:cover ;
     height: 60vh;
