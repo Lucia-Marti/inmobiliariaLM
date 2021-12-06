@@ -19,7 +19,7 @@ const URLJ =  "propiedades.json"
 $(document).ready( function() {
 
     $.getJSON(URLJ, function (respuesta, estado) {
-        if(estado === "success"){
+        //if(estado === "success"){
             let propiedades = respuesta.inmbuebles;
            
             // mostrar las destacadas(6)
@@ -54,7 +54,7 @@ $(document).ready( function() {
                     `)      
                 
                 
-            }
+         //   }
 
 
             // AGREGAR A FAVORITOS (agrego a local storage - luego en la pag de mi cuenta los obtengo del storage)
